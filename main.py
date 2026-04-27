@@ -53,38 +53,38 @@ else :
 
 if preference[1] <= avg :
     song = random.choice(rnb_f)
-    print(f"유명한 힙합 추천 : {song}")
+    print(f"유명한 알앤비 추천 : {song}")
     recommended.append(song)
 else :
     song = random.choice(rnb_u)
-    print(f"유명한 힙합 추천 : {song}")
+    print(f"유명하지 않은 알앤비 추천 : {song}")
     recommended.append(song)
 
 if preference[2] <= avg :
     song = random.choice(ballad_f)
-    print(f"유명한 힙합 추천 : {song}")
+    print(f"유명한 발라드 추천 : {song}")
     recommended.append(song)
 else :
     song = random.choice(ballad_u)
-    print(f"유명한 힙합 추천 : {song}")
+    print(f"유명하지 않은 발라드 추천 : {song}")
     recommended.append(song)
 
 if preference[3] <= avg :
     song = random.choice(pop_f)
-    print(f"유명한 힙합 추천 : {song}")
+    print(f"유명한 팝 추천 : {song}")
     recommended.append(song)
 else :
     song = random.choice(pop_u)
-    print(f"유명한 힙합 추천 : {song}")
+    print(f"유명하지 않은 팝 추천 : {song}")
     recommended.append(song)
 
 if preference[4] <= avg :
     song = random.choice(indie_f)
-    print(f"유명한 힙합 추천 : {song}")
+    print(f"유명한 인디 추천 : {song}")
     recommended.append(song)
 else :
     song = random.choice(indie_u)
-    print(f"유명한 힙합 추천 : {song}")
+    print(f"유명하지 않은 인디 추천 : {song}")
     recommended.append(song)
 
 answer = input("추천된 다섯 곡을 모두 들어보셨나요? (네/아니오) : ")
